@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Dictate</title>
+        <item>
+            <title>0.11.1</title>
+            <pubDate>Fri, 25 Sep 2026 20:25:33 +0400</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[The first public version of Dictate. Hold **fn**, speak, let go: your words are typed into whatever app you're in, written the way you meant them. Everything runs on your Mac.
+
+**Written the way you meant it.** Ums, stutters and false starts go; corrections are applied ("meet at three, I mean four" → "meet at four"). What you say on purpose stays as you said it: "please please please", "I mean it", phone numbers, "no one".
+
+**Modes.** Each app gets the right style on its own (Code in Terminal, Email in Mail), or pick one that holds everywhere. Translate as you speak, write it formal, or make your own mode in a sentence.
+- **Math:** say "x plus one in brackets squared, over five", "the whole thing divided by six", "integral from zero to two of…", and get symbols or LaTeX. LaTeX formulas are drawn in the bar as they go in.
+- **Switch without stopping:** hold fn and press ↑ or ↓, even mid-sentence; what you've said is rewritten in the new mode.
+
+**Private by design.** Your voice never leaves your Mac. Your history and recordings are encrypted, with a key in your Keychain that only Dictate can use. No accounts, no analytics.
+
+**Updates install themselves.** When a new version is out, a line appears in the menu bar popover: click Install.
+
+**Installing:** open the DMG and drag Dictate into Applications. The first time you open it, macOS says it can't check the app: open System Settings → Privacy & Security, scroll down and click Open Anyway. You only do this once.
+
+Needs a Mac with Apple silicon. The AI features need macOS 26 with Apple Intelligence turned on.
+]]></description>
+            <enclosure url="https://github.com/DragonFishy/dictate-releases/releases/download/v0.11.1/Dictate-0.11.1.dmg" length="19766334" type="application/octet-stream" sparkle:edSignature="VznYKnT5KREEfFDJ9oG7QEio0kliCRAy/UnAj2Dpk2nTBYnJJrWSHrA/h4HMlMUgK4Y0rEKi0mcydER/clHZAg=="/>
+        </item>
+    </channel>
+</rss>
