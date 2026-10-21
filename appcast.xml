@@ -3,6 +3,46 @@
     <channel>
         <title>Dictate</title>
         <item>
+            <title>0.12.6</title>
+            <pubDate>Wed, 21 Oct 2026 13:41:16 +0400</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.12.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Everything since 0.11.1.
+
+**Much more accurate, especially for long dictations.** When you let go, Dictate now hears the whole dictation again in one pass and types that. Before, it heard it in pieces cut at your pauses, and the words at each cut could come out garbled or go missing. A 43-second dictation used to come out "snipping up random words with side of I don't think so"; now it reads "making up random words, which I did not even mention". This works up to 5 minutes, and one pass over 3 minutes of speech takes about 0.6 s. While you talk, each part is heard with up to a minute of what came before it, so the live text already matches what gets typed.
+
+**Grammar, fixed as you speak.** Turn on "Touch up grammar" for a mode. It's on for Email, and for messages in Code mode, such as a prompt to Claude Code in a terminal; commands are never touched. "She don't" becomes "she doesn't", and run-on sentences get their full stops. Your words, their order and your meaning stay as you said them, and any change the AI can't account for is put back. The AI now has 3 seconds (up to 5 in Models → AI time limit), so its fix isn't thrown away when it's slow to start.
+
+**Corrections, repeats and stutters.**
+- A correction keeps the corrected part: "due Friday, I mean Thursday", "top shelf, no, the bottom shelf".
+- A phrase you restart keeps only the repeat.
+- A word you break off and say again ("st- strengthen") comes out once, and so does a word said again after an "uh".
+
+**Math mode leaves sentences alone.** A dictation with no maths in it is written as an ordinary sentence. "Oh by the way" no longer becomes "0 by the way", and "part A" stays "part A".
+
+**Your text goes where you were typing.**
+- If you switch to another field or app, your words wait on the clipboard instead of going in there.
+- Web pages that rebuild their text box as you type (Gemini and chat sites in Zen and Firefox) now take your text directly.
+- Undo only ever removes what Dictate typed.
+
+**A bar that opens up when there's something to do.** When the AI changed your words, the bar shows what was typed and what you said, with Undo (or fn Z). When your text had to go on the clipboard, it says so.
+
+**Privacy and polish**
+- The microphone is open only while you dictate, unless you choose otherwise in Settings, and it closes the moment you lock your Mac or it sleeps.
+- A TV or quiet talking across the room isn't typed, and a near-silent press no longer types "Yeah.".
+- The start and stop sounds are softer, and there's no sound when your Mac goes to sleep.
+- The history records which microphone was used and how it sounded, so a muffled mic is easy to spot.
+- Long tracking numbers no longer crash the app, and "5 mm" keeps its unit.
+
+**Installing:** if you have Dictate, it offers this update itself (Install in the menu bar popover). New install: open the DMG and drag Dictate into Applications. The first time you open it, macOS says it can't check the app: open System Settings → Privacy & Security, scroll down and click Open Anyway.
+
+Needs a Mac with Apple silicon. The AI features need macOS 26 with Apple Intelligence turned on.
+]]></description>
+            <enclosure url="https://github.com/DragonFishy/dictate-releases/releases/download/v0.12.6/Dictate-0.12.6.dmg" length="19737893" type="application/octet-stream" sparkle:edSignature="0RDtaGzH1X5cPjE6FROlix5N8KQ5iYf9PRsUgfz+nLmvToWXTei2XFANoLflEegoIBIfxjbwj5kQjtIXGwKACA=="/>
+        </item>
+        <item>
             <title>0.11.1</title>
             <pubDate>Fri, 25 Sep 2026 20:25:33 +0400</pubDate>
             <sparkle:version>14</sparkle:version>
